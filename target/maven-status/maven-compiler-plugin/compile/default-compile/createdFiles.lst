@@ -6,6 +6,7 @@ com\tutorial\employeemanagmentbackend\model\Room.class
 com\tutorial\employeemanagmentbackend\repository\BookingRepository.class
 com\tutorial\employeemanagmentbackend\controller\UserController.class
 com\tutorial\employeemanagmentbackend\security\SecurityConfig.class
+com\tutorial\employeemanagmentbackend\controller\home.class
 com\tutorial\employeemanagmentbackend\controller\RoomController.class
 com\tutorial\employeemanagmentbackend\EmployeemanagmentbackendApplication.class
 com\tutorial\employeemanagmentbackend\repository\EmployeeRepository.class

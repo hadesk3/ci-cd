@@ -19,6 +19,7 @@ D:\project spring\employee-management-main\employee-management-main\employeemana
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\model\Room.java
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\controller\authController.java
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\security\SecurityConfig.java
+D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\controller\home.java
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\controller\RoomController.java
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\service\RoomService.java
 D:\project spring\employee-management-main\employee-management-main\employeemanagmentbackend\src\main\java\com\tutorial\employeemanagmentbackend\security\JWTAuthFilter.java
