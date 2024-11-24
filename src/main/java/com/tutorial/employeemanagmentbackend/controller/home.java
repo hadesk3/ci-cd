@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/check")
 public class home {
 	public String homepage()
 	{
-		return "hello";
+		return "check ci/cd";
 	}
 }
