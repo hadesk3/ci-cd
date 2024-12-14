@@ -17,12 +17,11 @@ import com.tutorial.employeemanagmentbackend.exception.OurException;
 
 @Service
 public class AwsService {
-	private final String bucketName = "ha-hotel-images";
-	@Value("${aws.s3.access-key}")
-	private String awsS3AccessKey;
-	@Value("${aws.s3.secret-key}")
-	private String awsS3SecretKey;
-	
+
+	String awsS3AccessKey = System.getenv("aws_s3_access_key");
+	String awsS3SecretKey = System.getenv("aws_s3_secret_key");
+	String bucketName = System.getenv("bucket_name");
+
 	public String saveImageToS3(MultipartFile photo)
 	{
 		
