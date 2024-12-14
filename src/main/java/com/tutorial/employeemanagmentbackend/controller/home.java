@@ -10,6 +10,6 @@ public class home {
 	@GetMapping
 	public String homepage()
 	{
-		return "check ci/cd";
+		return "check";
 	}
 }
