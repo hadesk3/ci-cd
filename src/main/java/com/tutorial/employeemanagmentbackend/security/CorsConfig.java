@@ -15,7 +15,7 @@ public class CorsConfig {
 			public void addCorsMappings(CorsRegistry registry)
 			{
 				 registry.addMapping("/**")
-	              .allowedOrigins("http://front-end-react-web.s3-website-ap-southeast-1.amazonaws.com") // Thêm miền frontend vào đây
+	              .allowedOrigins("http://front-end-react-web.s3-website-ap-southeast-1.amazonaws.com","http://localhost:5000") // Thêm miền frontend vào đây
                  .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                  .allowedHeaders("*")
                  .allowCredentials(true);
